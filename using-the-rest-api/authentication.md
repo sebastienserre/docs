@@ -57,6 +57,9 @@ Note that you do not need to verify that the nonce is valid inside your custom e
 `rest_cookie_check_errors()`
 
 ## Authentication Plugins
+[info]
+Note WordPress 5.6 introduced a native Application Password Manager.[Dev Note](https://make.wordpress.org/core/2020/11/05/application-passwords-integration-guide/)
+</info]
 
 While cookie authentication is the only authentication mechanism available natively within WordPress, plugins may be added to support alternative modes of authentication that will work from remote applications. Some example plugins are [OAuth 1.0a Server](https://wordpress.org/plugins/rest-api-oauth1/), [Application Passwords](https://wordpress.org/plugins/application-passwords/), and [JSON Web Tokens](https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/).
 
